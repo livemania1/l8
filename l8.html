@@ -143,29 +143,6 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-<style>
-:root {
-  --primary-color: #ff6b6b;
-  --dark-bg: #1a1a1a;
-  --text-color: #ffffff;
-  --telegram-bg: #0088cc;
-}
-html,body{height:100%;margin:0;background:transparent;font-family:Roboto,Helvetica,Arial,sans-serif}
-.container{display:flex;flex-direction:column;height:100vh;position:relative}
-.video-container{height:calc(100vh - 50px);position:relative}
-.plyr{border-radius:8px;overflow:hidden;width:100%;height:100%}
-.quality-button{position:absolute;top:10px;right:10px;background:rgba(0,0,0,.4);color:#fff;border:1px solid #3399ff;padding:6px 12px;border-radius:4px;cursor:pointer;z-index:10;font-size:14px}
-.quality-menu{position:absolute;top:40px;right:10px;background:var(--dark-bg);border:1px solid rgba(255,255,255,.12);border-radius:4px;overflow:hidden;z-index:10;display:none}
-.quality-menu.active{display:block}
-.quality-menu button{display:block;width:100%;background:none;border:none;padding:8px 12px;color:#fff;text-align:left;cursor:pointer}
-.telegram-button{display:flex;align-items:center;justify-content:center;gap:12px;position:fixed;bottom:0;left:0;right:0;background:var(--telegram-bg);color:#fff;text-decoration:none;height:50px;font-size:16px;font-weight:700;border:none}
-.telegram-button:hover{background:#007ab3}
-.telegram-icon{width:24px;height:24px;fill:currentColor;margin-bottom:-2px}
-@media (max-width:480px){
-  .quality-button{top:5px;right:5px;padding:4px 8px;font-size:12px}
-  .quality-menu{top:35px;right:5px;min-width:80px}
-}
-</style>
 </head>
 <body>
   <div class="container">
