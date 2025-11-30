@@ -1,24 +1,280 @@
-<!DOCTYPE html><html><head>
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<style>
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;margin:0;padding:20px;background:#1a1a1a;min-height:100vh}
-.container{max-width:1200px;margin:0 auto;position:relative}
-.iframe-wrapper{position:relative;width:100%;padding-bottom:56.25%;border-radius:16px;overflow:hidden;background:#000}
-iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:none}
-@media (max-width:768px){body{padding:10px}.iframe-wrapper{border-radius:8px}}
-</style>
-<style type="text/css">* {user-select: auto !important; -webkit-user-select: auto !important;}</style><input type="hidden" id="inject_idm_text_selection"></head>
-<body>
-<div class="container">
-  <div class="iframe-wrapper">
-    <iframe src="http://l4-4o8.pages.dev/l4.html" allow="fullscreen; autoplay" sandbox="allow-same-origin allow-scripts allow-popups" loading="eager"></iframe>
-  </div>
-</div>
+<meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cm</title>
+
+    <style>
+
+        body, html {
+
+            margin: 0;
+
+            padding: 0;
+
+            width: 100%;
+
+            height: 100%;
+
+            overflow: hidden;
+
+            position: relative;
+
+        }
+
+        iframe {
+
+            width: 100%;
+
+            height: 100%;
+
+            border: none;
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            z-index: 1;
+
+        }
+
+        .tg-banner {
+
+            position: absolute;
+
+            top: 16px;
+
+            left: 20px;
+
+            background: linear-gradient(135deg, #1da1f2, #0077b5);
+
+            border-radius: 12px;
+
+            padding: 16px 22px; /* Increased padding by 4px */
+
+            display: flex;
+
+            align-items: center;
+
+            color: white;
+
+            text-decoration: none;
+
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+
+            z-index: 1000;
+
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            font-size: 18px;
+
+            font-weight: 600;
+
+            letter-spacing: 0.5px;
+
+            cursor: pointer;
+
+        }
+
+        .tg-banner:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+
+        }
+
+        .tg-icon {
+
+            width: 36px;
+
+            height: 36px;
+
+            margin-right: 12px;
+
+            border-radius: 50%;
+
+            border: 2px solid white;
+
+            background-color: #ffffff40;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            overflow: hidden;
+
+        }
+
+        .tg-icon img {
+
+            width: 24px;
+
+            height: 24px;
+
+        }
+
+    </style>
+
+<style type="text/css">* {user-select: auto !important; -webkit-user-select: auto !important;}</style><input type="hidden" id="inject_idm_text_selection"></head>
+
+<body>
+
+    <div class="tg-banner" onclick="window.location.href='https://t.me/sports_live_linkss';">
+
+        <div class="tg-icon">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo">
+
+        </div>
+
+        Join @for match
+
+    </div>
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<style>
+:root {
+  --primary-color: #ff6b6b;
+  --dark-bg: #1a1a1a;
+  --text-color: #ffffff;
+  --telegram-bg: #0088cc;
+}
+html,body{height:100%;margin:0;background:transparent;font-family:Roboto,Helvetica,Arial,sans-serif}
+.container{display:flex;flex-direction:column;height:100vh;position:relative}
+.video-container{height:calc(100vh - 50px);position:relative}
+.plyr{border-radius:8px;overflow:hidden;width:100%;height:100%}
+.quality-button{position:absolute;top:10px;right:10px;background:rgba(0,0,0,.4);color:#fff;border:1px solid #3399ff;padding:6px 12px;border-radius:4px;cursor:pointer;z-index:10;font-size:14px}
+.quality-menu{position:absolute;top:40px;right:10px;background:var(--dark-bg);border:1px solid rgba(255,255,255,.12);border-radius:4px;overflow:hidden;z-index:10;display:none}
+.quality-menu.active{display:block}
+.quality-menu button{display:block;width:100%;background:none;border:none;padding:8px 12px;color:#fff;text-align:left;cursor:pointer}
+.telegram-button{display:flex;align-items:center;justify-content:center;gap:12px;position:fixed;bottom:0;left:0;right:0;background:var(--telegram-bg);color:#fff;text-decoration:none;height:50px;font-size:16px;font-weight:700;border:none}
+.telegram-button:hover{background:#007ab3}
+.telegram-icon{width:24px;height:24px;fill:currentColor;margin-bottom:-2px}
+@media (max-width:480px){
+  .quality-button{top:5px;right:5px;padding:4px 8px;font-size:12px}
+  .quality-menu{top:35px;right:5px;min-width:80px}
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="video-container">
+      <button id="qualityButton" class="quality-button">Quality: Auto</button>
+      <div id="qualityMenu" class="quality-menu"></div>
+
+      <!-- Clean video tag (no stray chars) -->
+      <video id="player" class="plyr-js" playsinline controls poster="https://i.ibb.co/W4YPBC95/Fintg.jpg">
+        <source src="https://rumble.com/live-hls/70870y/playlist.m3u8" type="application/x-mpegURL" />
+      </video>
+    </div>
+
+    <a href="https://t.me/finally_live_streaming" class="telegram-button" target="_blank" rel="noopener noreferrer">
+      <svg class="telegram-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 6.627 5.373 12 12 12s12-5.373 12-12C24 5.373 18.627 0 12 0zM17.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954L17 7.463c.538-.196 1.006.128.894.758z"/>
+      </svg>
+      Join Our Telegram Channel
+    </a>
+  </div>
+
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.1.5/dist/hls.min.js"></script>
 <script>
+  const video = document.getElementById('player');
+  const qualityButton = document.getElementById('qualityButton');
+  const qualityMenu = document.getElementById('qualityMenu');
+  let hls;
+  let qualityOptions = [];
+
+  const player = new Plyr('#player', {
+    controls: ['play-large','play','progress','current-time','mute','volume','captions','settings','pip','airplay','fullscreen'],
+    ratio: '16:9',
+    invertTime: false,
+    keyboard: { focused: false, global: true }
+  });
+
+  qualityButton.addEventListener('click', () => qualityMenu.classList.toggle('active'));
+  function updateQualityButtonText(text){ qualityButton.textContent = 'Quality: ' + text }
+
+  if (Hls.isSupported()) {
+    hls = new Hls();
+    hls.loadSource(video.querySelector('source').src);
+    hls.attachMedia(video);
+
+    hls.on(Hls.Events.MANIFEST_PARSED, (event, data) => {
+      const heights = [...new Set(data.levels.map(l => l.height))].sort((a,b)=>b-a);
+      qualityOptions = heights.map(h => ({ name: h + 'p', value: h }));
+
+      qualityMenu.innerHTML = '';
+      const autoBtn = document.createElement('button');
+      autoBtn.textContent = 'Auto';
+      autoBtn.addEventListener('click', () => {
+        hls.currentLevel = -1;
+        updateQualityButtonText('Auto');
+        qualityMenu.classList.remove('active');
+      });
+      qualityMenu.appendChild(autoBtn);
+
+      qualityOptions.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.textContent = opt.name;
+        btn.addEventListener('click', () => {
+          const idx = data.levels.findIndex(l => l.height === opt.value);
+          hls.currentLevel = idx;
+          updateQualityButtonText(opt.name);
+          qualityMenu.classList.remove('active');
+        });
+        qualityMenu.appendChild(btn);
+      });
+
+      // set to highest quality by default
+      if (qualityOptions.length) {
+        const idx = data.levels.findIndex(l => l.height === qualityOptions[0].value);
+        hls.currentLevel = idx;
+        updateQualityButtonText(qualityOptions[0].name);
+      }
+      try { player.play(); } catch(e){}
+    });
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = video.querySelector('source').src;
+    video.addEventListener('loadedmetadata', () => player.play());
+  }
+
+  // Popup is optional. keep simple confirm
   window.addEventListener('load', () => {
-    if (confirm("Join Telegram For More Links!")) {
-      window.open("https://t.me/+F2XwnbgeBMc2ZWM1", '_blank');
-    }
+    setTimeout(() => {
+      if (confirm("Join Telegram For More Links!")) {
+        window.open("https://t.me/+F2XwnbgeBMc2ZWM1", '_blank');
+      }
+    }, 1500);
   });
 </script>
+</body>
+</html>
+
+
+    <script>
+
+        // Prevent the default action of the link
+
+        document.querySelector('.tg-banner').addEventListener('click', function(event) {
+
+            event.preventDefault();
+
+        });
+
+    </script>
+
+<noscript>You must enable JavaScript to see this text.</noscript>
+
+      </body></html>
