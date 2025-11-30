@@ -158,39 +158,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.6/controls.min.css"crossorigin="anonymous">
     <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
       <body bgcolor="black" style="margin:0">
-        <style>
-    body {
-        background-color: #000;
-        margin: 0;
-    }
-
-    /* Container for video and logo */
-    .video-container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        background-color: black;
-    }
-
-    /* Style for the logo */
-    .logo {
-        position: absolute;
-        top: 10px; /* Adjust vertical position */
-        left: 10px; /* Adjust horizontal position */
-        z-index: 1; /* Ensure the logo appears above the video */
-        max-width: 120px; /* Set maximum width for the logo */
-        max-height: 120px; /* Set maximum height for the logo */
-        pointer-events: none; /* Prevent interference with video controls */
-    }
-
-    .shaka-spinner-container {
-        display: none;
-    }
-
-    .uc {
-        pointer-events: none;
-    }
-</style>
 
     <center>
             <div data-shaka-player-container="" style="width: 100%; height: 100%" class="shaka-mobile shaka-video-container" shaka-controls="true">
@@ -200,7 +167,7 @@
       
 
     <script>
-          const manifestUri ="https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd%7C";
+          const manifestUri ="https://hugh.cdn.rumble.cloud/live/y16rq9u0/slot-137/6odd-ekvt_720p/chunklist.m3u8";
         async function init() {
           const video = document.getElementById('video');
           const ui = video['ui'];
@@ -213,13 +180,6 @@
         
           window.player = player;
             window.ui = ui;
- player.configure({
-                drm: {
-                    "clearKeys": {
-                        '192b1115da041585c77200128549efa1': '634e10efe4abbb14be400a3ccbac0258'
-                    }
-                }
-            });
           
           player.addEventListener('error', onPlayerErrorEvent);
           controls.addEventListener('error', onUIErrorEvent);
@@ -269,4 +229,4 @@
 
 <noscript>You must enable JavaScript to see this text.</noscript>
 
-      </body></html>
+</body></html>
